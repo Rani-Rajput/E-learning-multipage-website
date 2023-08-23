@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning website</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <img src="./download.png" alt="image is not present">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a  href="courses.html">courses</a></li>
+                <li><a  class="active" href="Contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="image">
+
+        </div>
+    </nav>
+    <!-- home section -->
+    <section id="about-home">
+        <h2>Contact Us ! </h2>
+    </section>
+    <section id="Contact">
+        <div class="getin">
+            <h2>Get in touch</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident distinctio ea minus delectus tenetur assumenda laudantium cum rem sequi 
+             vitae, numquam eaque adipisci neque similique, magnam ullam repudiandae. Velit, harum?
+            </p>
+            <div class="getin-details">
+                <h3>Headquater</h3>
+                <div>
+                    <i class="far fa-home get"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, facere.</p>
+
+                </div>
+                <h3>phone</h3>
+                <div>
+                    <i class="far fa-phone-alt get"></i>
+                    <p>91235-85689</p>
+
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <i class="far fa-envelope-open-text get"></i>
+                    <p>techeduca@Support.com <br>
+                       helplineTech@.com
+                    </p>
+
+                </div>
+                <h3>follow us</h3>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <h4>let's connect</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, nostrum!
+            </p>
+            <div class="form-row">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+            </div>
+            <div class="form-col">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-col">
+                <textarea name="" id="" cols="30" rows="10" placeholder="How can we help you?"></textarea>
+            </div>
+            <div class="form-col">
+                 <button>send message</button>
+            </div>
+
+        </div>
+    </section>
+    <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57694.23025421032!2d74.59053613096545!3d25.34149239391597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3968c2368c070a55%3A0xc92f70a42dcb5294!2sBhilwara%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1691135746828!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+     <!-- footer -->
+     <footer>
+        <div class="footer-col">
+            <h3>top products</h3>
+            <li>manage reputation</li>
+            <li>power tools</li>
+            <li>managed websites</li>
+            <li>marketing services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick links</h3>
+            <li>job</li>
+            <li>brand assets</li>
+            <li>investor relations</li>
+            <li>Tearms of services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>manage reputation</li>
+            <li>power tools</li>
+            <li>managed websites</li>
+            <li>marketing services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Quides</li>
+            <li>research</li>
+            <li>Experts</li>
+            <li>marketing services</li>
+        </div>
+       <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>this is the paragraph</p>
+        <div class="subscribe">
+            <input type="text" placeholder="your-email address">
+            <a href="#" class="yellow">subscribe</a>
+        </div>
+       </div>
+       <div class="copyright">
+        <p>copyright all the rights reserved| this templates is made by tech</p>
+        <div class="pro-links">
+            <i class="fa-brands fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+
+        </div>
+       </div>
+     </footer>
+     <script>
+                $('menu-btn').click(function(){
+            $('nav.navigation ul').addClass('active')
+        });
+        $('menu-close').click(function(){
+            $('nav.navigation ul').removeClass('active')
+        });
+
+     </script>
+
+</body>
+</html>

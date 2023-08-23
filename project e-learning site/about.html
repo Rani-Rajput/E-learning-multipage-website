@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning website</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <img src="./download.png" alt="image is not present">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="courses.html">courses</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="image">
+
+        </div>
+    </nav>
+    <!-- home section -->
+    <section id="about-home">
+        <h2>About techEduca! </h2>
+        
+    </section>
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/a.png" width="98%" alt="image">
+        </div>
+        <div class="about-text">
+            <h2>welcome to techEduca,Enhance your skills with best online courses.</h2>
+            <p>you can finish one of these Popular courses in under a day -for free!
+                check out the list below. Take the course for free.
+            </p>
+            <div class="about-fe">
+                <img src="images/fe1.png" alt="image">
+                <div class="fe-text">
+                    <h5>400+ courses</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, placeat?</p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="images/fe2.png" alt="image">
+                <div class="fe-text">
+                    <h5>life-time access</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, placeat?</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- features -->
+    <section id="features">
+    <h1>Awesome features</h1>
+    <p>Replenish man have things gathering ligthts yieldings shall you</p>
+    <div class="fea-base">
+        <div class="fea-box">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Scholarship Facility</h3>
+            <p>let your educational brilliance shine with a scholarship.</p>
+        </div>
+        <div class="fea-box">
+            <i class="fas fa-award"></i>
+            <h3>Online courses</h3>
+            <p>Unclock your Potential with our Online Courses.</p>
+        </div>
+        <div class="fea-box">
+            <i class="fas fa-award"></i>
+            <h3>Globol certification</h3>
+            <p>providing certification after completion that help you in providing good postion.</p>
+        </div>
+    </div>
+    </section>
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>trust is lubricantion that makes it possible for organization to work.</p>
+        <div class="trust-img">
+            <img src="images/trust (1).png">
+            <img src="images/trust (2).png">
+            <img src="images/trust (3).png">
+            <img src="images/trust (4).png">
+            <img src="images/trust (5).png">
+            <img src="images/trust (6).png">
+        </div>
+
+    </section>
+    
+     <!-- footer -->
+     <footer>
+        <div class="footer-col">
+            <h3>top products</h3>
+            <li>manage reputation</li>
+            <li>power tools</li>
+            <li>managed websites</li>
+            <li>marketing services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick links</h3>
+            <li>job</li>
+            <li>brand assets</li>
+            <li>investor relations</li>
+            <li>Tearms of services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>manage reputation</li>
+            <li>power tools</li>
+            <li>managed websites</li>
+            <li>marketing services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Quides</li>
+            <li>research</li>
+            <li>Experts</li>
+            <li>marketing services</li>
+        </div>
+       <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>this is the paragraph</p>
+        <div class="subscribe">
+            <input type="text" placeholder="your-email address">
+            <a href="#" class="yellow">subscribe</a>
+        </div>
+       </div>
+       <div class="copyright">
+        <p>copyright all the rights reserved| this templates is made by tech</p>
+        <div class="pro-links">
+            <i class="fa-brands fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+
+        </div>
+       </div>
+     </footer>
+     <script>
+                $('menu-btn').click(function(){
+            $('nav.navigation ul').addClass('active')
+        });
+        $('menu-close').click(function(){
+            $('nav.navigation ul').removeClass('active')
+        });
+
+     </script>
+
+</body>
+</html>
